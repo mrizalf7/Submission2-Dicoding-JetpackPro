@@ -5,7 +5,6 @@
     <string name="movie_title">Movie Title</string>
     <string name="movie_score">Movie Score</string>
     <string name="movie_synopsis">Movie Synopsis</string>
-    <string name="movie_description">Movie Description</string>
     <string name="movie_release_date">Movie Release Date</string>
 
     <string name="release_date">Release Date %s</string>

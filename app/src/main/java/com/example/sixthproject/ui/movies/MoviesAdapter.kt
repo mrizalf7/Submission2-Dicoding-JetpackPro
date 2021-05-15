@@ -43,7 +43,6 @@ class MoviesAdapter : RecyclerView.Adapter<MoviesAdapter.MovieViewHolder>() {
                   }
                 Glide.with(itemView.context)
                     .load(movie.image)
-                    .apply(RequestOptions().override(600, 500))
                     .into(moviePoster)
             }
         }
