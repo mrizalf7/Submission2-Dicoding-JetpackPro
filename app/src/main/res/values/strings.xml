@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">Movie Catalogue</string>
+    <string name="movies">Movies</string>
+    <string name="tvshows">Tv Shows</string>
+    <string name="movie_title">Movie Title</string>
+    <string name="movie_score">Movie Score</string>
+    <string name="movie_synopsis">Movie Synopsis</string>
+    <string name="movie_description">Movie Description</string>
+    <string name="movie_release_date">Movie Release Date</string>
+
+    <string name="release_date">Release Date %s</string>
+    <string name="score">Score %s</string>
+    <string name="first_episode">First Episode %s</string>
+    <string name="last_episode">Last Episode %s</string>
+    <string name="total_episode">Total Episode %s</string>
+    <string name="total_season">Total Season %s</string>
+
+    <string name="tv_show_title">Tv Show Title</string>
+    <string name="tv_show_score">Tv Show Score</string>
+    <string name="tv_show_first_episode">Tv Show First Episode</string>
+    <string name="tv_show_last_episode">Tv Show Last Episode</string>
+    <string name="tv_show_total_episode">Tv Show Total Episode</string>
+    <string name="tv_show_total_season">Tv Show Total Season</string>
+    <string name="tv_show_synopsis">Tv Show Synopsis</string>
+    <string name="tv_show_poster">Tv Show Poster</string>
+    <string name="movie_poster">Movie Poster</string>
+    <string name="movie_logo">Movie Logo</string>
+</resources>

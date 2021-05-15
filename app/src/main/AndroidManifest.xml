@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.sixthproject">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/movie_logo"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/movie_logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.sixthProject">
+        <activity android:name="com.example.sixthproject.ui.splashscreen.SplashScreenActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.example.sixthproject.ui.moviedetail.MovieDetailActivity" />
+        <activity android:name="com.example.sixthproject.ui.tvshowdetail.TvShowDetailActivity" />
+        <activity android:name="com.example.sixthproject.ui.home.HomeActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
