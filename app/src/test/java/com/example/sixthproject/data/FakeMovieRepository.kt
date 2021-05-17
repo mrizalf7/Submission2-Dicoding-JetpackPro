@@ -2,7 +2,6 @@ package com.example.sixthproject.data
 
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
-import com.example.sixthproject.data.MovieDataSource
 import com.example.sixthproject.data.source.local.entity.MoviesEntity
 import com.example.sixthproject.data.source.local.entity.TvShowsEntity
 import com.example.sixthproject.data.source.remote.RemoteDataSource

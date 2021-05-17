@@ -6,7 +6,6 @@ import com.example.sixthproject.utils.LiveDataTestUtil
 import com.example.sixthproject.utils.NotDataDummy
 import org.junit.Test
 import org.junit.Assert.*
-import org.mockito.Mockito
 import org.mockito.Mockito.*
 import com.nhaarman.mockitokotlin2.any
 import com.nhaarman.mockitokotlin2.verify

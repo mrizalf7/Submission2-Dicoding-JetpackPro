@@ -34,8 +34,6 @@ class MovieViewModelTest {
 
     @Test
     fun getMovies() {
-
-
         val notDummyMovies = NotDataDummy.generateMovies()
         val movies = MutableLiveData<List<MoviesEntity>>()
         movies.value = notDummyMovies

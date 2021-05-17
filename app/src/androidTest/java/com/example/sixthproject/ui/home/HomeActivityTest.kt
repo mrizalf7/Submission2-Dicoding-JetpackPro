@@ -122,7 +122,4 @@ class HomeActivityTest{
             .check(ViewAssertions.matches(withText("Score ${notDummyMovies[0].score}")))
 
     }
-
-
-
 }
