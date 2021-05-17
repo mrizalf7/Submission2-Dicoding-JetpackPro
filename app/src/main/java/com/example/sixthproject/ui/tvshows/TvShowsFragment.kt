@@ -8,6 +8,7 @@ import android.view.ViewGroup
 import androidx.lifecycle.ViewModelProvider
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.sixthproject.databinding.FragmentTvShowsBinding
+import com.example.sixthproject.viewmodel.ViewModelFactory
 
 
 class TvShowsFragment: Fragment() {
@@ -23,11 +24,19 @@ class TvShowsFragment: Fragment() {
         super.onViewCreated(view, savedInstanceState)
 
         if (activity != null) {
-            val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[TvShowsViewModel::class.java]
-            val tvShows = viewModel.getTvShows()
-
             val tvShowsAdapter = TvShowsAdapter()
-            tvShowsAdapter.setTvShows(tvShows)
+            val factory = ViewModelFactory.getInstance(requireActivity())
+            val viewModel = ViewModelProvider(this,factory)[TvShowsViewModel::class.java]
+
+            fragmentTvShowBinding.progressBar.visibility = View.VISIBLE
+            viewModel.getTvShows().observe(this,{tvShows->
+                fragmentTvShowBinding.progressBar.visibility = View.GONE
+                tvShowsAdapter.setTvShows(tvShows)
+                tvShowsAdapter.notifyDataSetChanged()
+            })
+
+
+
 
             with(fragmentTvShowBinding.rvTvShows) {
                 layoutManager = GridLayoutManager(requireContext(),3)

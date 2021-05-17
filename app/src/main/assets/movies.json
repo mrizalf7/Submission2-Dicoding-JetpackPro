@@ -1,0 +1,109 @@
+{
+  "movies": [
+    {
+      "movieId": "mk2021",
+      "title": "Mortal Kombat",
+      "image": "https://i.ibb.co/M7g03Mp/mortalkombat2021-1.jpg",
+      "synopsis": "Petarung MMA Cole Young, yang terbiasa menerima pukulan demi uang, tidak menyadari warisannya-atau mengapa Kaisar Dunia Luar Shang Tsung telah mengirim prajurit terbaiknya, Sub-Zero, seorang Cryomancer dunia lain, untuk memburu Cole. Khawatir akan keselamatan keluarganya, Cole pergi mencari Sonya Blade ke arah Jax, seorang Mayor Pasukan Khusus yang memiliki tanda naga aneh yang sama dengan Cole saat lahir.",
+      "releaseDate": "14 April 2021",
+      "score":"8.7/10"
+    },
+    {
+        "movieId": "batmanbegins",
+        "title": "Batman Begins",
+        "image": "https://i.ibb.co/Y75P05W/batman.jpg",
+        "synopsis": "Setelah orangtuanya dibunuh, Bruce belajar seni bertarung untuk melawan ketidakadilan. Ketika kembali sebagai Batman, dia harus menghentikan sebuah kelompok rahasia yang berniat menghancurkan Gotham.",
+        "releaseDate": "23 Juni 2005",
+        "score" : "8.6/10"
+      },
+      {
+        "movieId": "batmanvsuper",
+        "title": "Batman V Superman",
+        "image": "https://i.ibb.co/J3d4rv8/Fearing-the-actions-of-Superman-are-left-unchecked-Batman-takes-on-the-man-of-steel-while-the-world.jpg",
+        "synopsis": "Bruce Wayne menganggap Superman sebagai ancaman bagi umat manusia - karena kekuatannya tak terkendali. Ia pun memutuskan untuk melindungi dunia dan melawannya - dari balik sosok superhero Batman.",
+        "releaseDate": "23 Maret 2016",
+        "score" : "7.5/10"
+    },
+    {
+        "movieId": "spider",
+        "title": "Spider-Man",
+        "image": "https://i.ibb.co/n8CG9Fx/spiderman1.jpg",
+        "synopsis": "Peter Parker, remaja yatim piatu yang tinggal bersama bibi dan pamannya, tak sengaja digigit laba-laba modifikasi genetika beracun mematikan. Namun, kekuatan luar biasa justru muncul dalam dirinya.",
+        "releaseDate": "22 Mei 2002",
+        "score" : "8.3/10"
+      },
+      {
+        "movieId": "spider2",
+        "title": "Spider-Man 2",
+        "image": "https://i.ibb.co/8gQ38mN/spiderman2.jpg",
+        "synopsis": "Sepertinya kesulitan memang tak pernah mau menjauhi kehidupan Peter Parker. Kali ini ia harus bertempur mati-matian melawan ilmuan brilian yang berubah menjadi sosok jahat Doctor Octopus.",
+        "releaseDate": "30 Juni 2004",
+        "score" : "8.7/10"
+      },
+      {  
+        "movieId": "spider3",
+        "title": "Spider-Man 3",
+        "image": "https://i.ibb.co/dKNFRwR/spiderman3.jpg",
+        "synopsis": "Sebuah cairan hitam aneh dari dunia lain melekat ke tubuh Peter Parker dan menyebabkan kekacauan batinnya. Pada saat bersamaan, muncul sosok penjahat baru yang mengancam warga New York - Sandman.",
+        "releaseDate": "2 Mei 2007",
+        "score" : "8.5/10"
+      },
+      {
+        "movieId": "spiderhome",
+        "title": "Spider-Man Homecoming",
+        "image": "https://i.ibb.co/TP1zCYm/spidermanhomecoming.jpg",
+        "synopsis": "Peter Parker berusaha menyeimbangkan dua kehidupannya yang sangat bertolak belakang - menghentikan aksi penjualan senjata Chitauri oleh Adrian Toomes dan menjalani hari-hari selayaknya murid SMA.",
+        "releaseDate": "28 Juni 2017",
+        "score" : "8.5/10"
+      },
+      {
+        "movieId": "conjure",
+        "title": "The Conjuring",
+        "image": "https://i.ibb.co/MM43dvg/theconjuring.jpg",
+        "synopsis": "Ketika suami istri Rod dan Carolyn menyadari bahwa keluarga mereka tengah diganggu oleh roh jahat - keduanya pun akhirnya meminta bantuan pada pasangan ahli supranatural untuk menyelidiki masalah ini.",
+        "releaseDate": "26 Juli 2013",
+        "score" : "9.1/10"
+      },
+      {
+        "movieId": "insid1",
+        "title": "Insidious",
+        "image": "https://i.ibb.co/sycxytd/insidious.jpg",
+        "synopsis": "Josh dan dan Renai Lambert pindah ke sebuah mansion baru bersama ke-tiga anak mereka. Keadaan berubah mengerikan ketika Dalton dan anak mereka, terjatuh dan koma setelah serangan misterius di loteng.",
+        "releaseDate": "4 Juni 2011",
+        "score" : "8.9/10"
+      },
+      {
+        "movieId": "insid2",
+        "title": "Insidious 2",
+        "image": "https://i.ibb.co/hHj3x59/insidious2.jpg",
+        "synopsis": "Keluarga Lamberts pindah ke rumah Lorraine setelah mengalami kejadian mengerikan di rumah mereka. Tapi di sana, mereka dipaksa mengungkap sebuah rahasia menakutkan ketika Josh mulai bertingkah ganjil.",
+        "releaseDate": "27 September 2013",
+        "score" : "9.0/10"
+      },
+      {
+        "movieId": "joker",
+        "title": "Joker",
+        "image": "https://i.ibb.co/9y23q3s/joker-movie-poster.jpg",
+        "synopsis": "Arthur Fleck, seorang badut pesta, hidup dalam keadaan sulit bersama ibunya yang sakit-sakitan. Karena orang-orang menganggapnya aneh, ia memutuskan untuk berubah menjadi jahat dan membuat kekacauan.",
+        "releaseDate": "2 Oktober 2019",
+        "score" : "9.1/10"
+      },
+      {
+        "movieId": "gvk",
+        "title": "Godzilla vs. Kong",
+        "image": "https://i.ibb.co/b12Rd6v/godzila-vs-kong.png",
+        "synopsis": "Sebuah pertarungan epic dalam sinematik Monsterverse antara Godzilla dan Kong.Pertarungan Godzilla vs. Kong membuat umat manusia harus bertahan dengan berbagai cara. Salah satunya adalah memusnahkan kedua raksasa tersebut.Siapa yang akan menang?",
+        "releaseDate": "24 Maret 2021",
+        "score" : "9.3/10"
+      },
+      {
+        "movieId": "3idiots",
+        "title": "Three Idiots",
+        "image": "https://i.ibb.co/fx90QS8/3idiots.jpg",
+        "synopsis": "Di kampus, Farhan dan Raju terlihat sangat akrab dengan Rancho. Bertahun-tahun kemudian, sebuah taruhan akhirnya memberi mereka kesempatan untuk mencari kembali teman yang telah lama hilang.",
+        "releaseDate": "25 Desember 2009",
+        "score" : "9.5/10"
+      }
+      
+  ]
+}

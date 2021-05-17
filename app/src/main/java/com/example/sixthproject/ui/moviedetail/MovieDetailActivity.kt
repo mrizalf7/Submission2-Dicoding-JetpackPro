@@ -2,13 +2,14 @@ package com.example.sixthproject.ui.moviedetail
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.view.View
 import androidx.lifecycle.ViewModelProvider
 import com.bumptech.glide.Glide
 import com.bumptech.glide.load.resource.bitmap.RoundedCorners
 import com.example.sixthproject.R
-import com.example.sixthproject.data.MoviesEntity
+import com.example.sixthproject.data.source.local.entity.MoviesEntity
 import com.example.sixthproject.databinding.ActivityMovieDetailBinding
-import com.example.sixthproject.utils.NotDataDummy
+import com.example.sixthproject.viewmodel.ViewModelFactory
 
 class MovieDetailActivity : AppCompatActivity() {
 
@@ -22,7 +23,8 @@ class MovieDetailActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         movieDetailBinding = ActivityMovieDetailBinding.inflate(layoutInflater)
         setContentView(movieDetailBinding.root)
-        val viewModel = ViewModelProvider(this, ViewModelProvider.NewInstanceFactory())[MovieDetailViewModel::class.java]
+        val factory = ViewModelFactory.getInstance(this)
+        val viewModel = ViewModelProvider(this,factory)[MovieDetailViewModel::class.java]
 
         val actionbar = supportActionBar
         val extras = intent.extras
@@ -30,14 +32,15 @@ class MovieDetailActivity : AppCompatActivity() {
             val movieId = extras.getString(EXTRA_MOVIE)
             if (movieId != null) {
                 viewModel.setSelectedMovie(movieId)
-
-                populateMovie(viewModel.getMovie())
-                for (movie in NotDataDummy.generateMovies()) {
-                    if (movie.movieId == movieId) {
-                        populateMovie(movie)
-                        actionbar?.title =movie.title
-                    }
-                }
+                actionbar?.title=null
+                movieDetailBinding.progressBar.visibility= View.VISIBLE
+                movieDetailBinding.movieDetailPoster.visibility=View.INVISIBLE
+                viewModel.getMovie().observe(this,{movieDetail->
+                    populateMovie(movieDetail)
+                    actionbar?.title=movieDetail.title
+                    movieDetailBinding.progressBar.visibility=View.INVISIBLE
+                    movieDetailBinding.movieDetailPoster.visibility=View.VISIBLE
+                })
             }
         }
         supportActionBar?.setDisplayHomeAsUpEnabled(true)

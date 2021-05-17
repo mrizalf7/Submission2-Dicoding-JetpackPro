@@ -1,6 +1,10 @@
-package com.example.sixthproject.data
+package com.example.sixthproject.data.source.remote.response
 
-data class TvShowsEntity(
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+data class TvShowsResponse (
     var tvShowId: String,
     var title: String,
     var image:String,
@@ -10,4 +14,4 @@ data class TvShowsEntity(
     var totalEpisode:String,
     var totalSeason:String,
     var score : String
-)
+): Parcelable

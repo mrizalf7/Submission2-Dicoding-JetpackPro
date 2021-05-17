@@ -6,7 +6,7 @@ import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
 import com.bumptech.glide.request.RequestOptions
-import com.example.sixthproject.data.TvShowsEntity
+import com.example.sixthproject.data.source.local.entity.TvShowsEntity
 import com.example.sixthproject.databinding.ItemsTvShowsBinding
 import com.example.sixthproject.ui.tvshowdetail.TvShowDetailActivity
 

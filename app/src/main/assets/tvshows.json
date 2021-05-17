@@ -1,0 +1,147 @@
+{
+    "tvshows":[
+        {
+            "tvShowId":"gameofthrones",
+            "title":"Game of Thrones",
+            "image":"https://i.ibb.co/42rMtvr/got.jpg",
+            "synopsis":"Dalam Game of Thrones, Anda menang atau mati. Sembilan keluarga bangsawan berjuang untuk menguasai tanah mitos Westeros. Intrik politik dan seksual menyebar luas. Robert Baratheon (Mark Addy), Raja Westeros, meminta teman lamanya, Lord Eddard Stark (Sean Bean), untuk menjadi Hand of the King, atau pejabat tertinggi.",
+            "firstEpisode":"17 April 2011",
+            "lastEpisode":"19 Mei 2019",
+            "totalEpisode":"73",
+            "totalSeason":"8",
+            "score":"9.2/10"
+        },
+
+       {
+            "tvShowId":"sherlock",
+            "title":"Sherlock",
+            "image":"https://i.ibb.co/G7vVMtt/sherlock.jpg",
+            "synopsis":"Dalang kriminal baru telah tiba -Professor Moriarty - tidak hanya memiliki intelektual yang sama dengan Sherlock Holmes, namun kapasitasnya kejahatan dan tidak memiliki hati nurani, dapat memberinya keuntungan lebih dari detektif terkenal tersebut. Kematian putra mahkota Austria awalnya dianggap sebagai bunuh diri. Namun Holmes menduga bahwa Pangeran telah menjadi korban pembunuhan - sebuah pembunuhan yang merupakan satu bagian kecil dari teka-teki yang dirancang oleh Professor Moriarty. Gabungan antara pekerjaan dan kesenangan, Holmes melacak semua petunjuk menuju ke klub pria, dimana ia dan kakaknya, Mycroft Holmes merayakan malam bujang bagi Dr. Watson. Disana Holmes bertemu Sim, seorang peramal Gypsy yang melihat lebih dari yang ia katakan dan tanpa ia sadari telah menjadi target pembunuh Pangeran yang berikutnya.",
+            "firstEpisode":"25 Juli 2010",
+            "lastEpisode":"15 Januari 2017",
+            "totalEpisode":"13",
+            "totalSeason":"4",
+            "score":"9.6/10"
+        },
+
+               {
+            "tvShowId":"genius",
+            "title":"Genius",
+            "image":"https://i.ibb.co/cJ8g6xG/genius.jpg",
+            "synopsis":"Serial televisi drama periode antologi Amerika Serikat produksi National Geographic yang tayang perdana pada tanggal 25 April 2017.[2][3][4] Musim pertama serial yang dirancang Noah Pink dan Kenneth Biller ini mengikuti kisah hidup Albert Einstein sejak masa mudanya sebagai pegawai rendahan di kantor paten hingga masa tuanya sebagai fisikawan yang mengembangkan teori relativitas. Serial ini didasarkan pada buku Einstein.",
+            "firstEpisode":"25 April 2017",
+            "lastEpisode":"24 Maret 2021",
+            "totalEpisode":"28",
+            "totalSeason":"3",
+            "score":"9/3/10"
+        },
+
+               {
+            "tvShowId":"the100",
+            "title":"The 100",
+            "image":"https://i.ibb.co/PMCSHfK/the100.jpg",
+            "synopsis":"The 100 (penyebutan The Hundred [1]) adalah serial drama fiksi ilmiah pasca-apokaliptik Amerika Serikat yang di tayangkan perdana pada 19 Maret 2014 di The CW, dan berakhir pada tanggal 30 September 2020. Serial ini dikembangkan oleh Jason Rothenberg dan berdasarkan pada seri novel dengan nama yang sama oleh Kass Morgan.[2] Serial ini mengikuti sekelompok pejuang pasca-apokaliptik, yang berusia remaja, termasuk Clarke Griffin (Eliza Taylor), Bellamy Blake (Bob Morley), Octavia Blake (Marie Avgeropoulos), Jasper Jordan (Devon Bostick), Monty Green (Christopher Larkin), Raven Reyes (Lindsey Morgan), Finn Collins (Thomas McDonell), John Murphy (Richard Harmon) dan Wells Jaha (Eli Goree). Mereka adalah orang-orang pertama dari habitat luar angkasa, 'The Ark' yang kembali ke Bumi setelah sebuah kiamat nuklir yang menghancurkannya.",
+            "firstEpisode":"19 Maret 2014",
+            "lastEpisode":"30 September 2020",
+            "totalEpisode":"100",
+            "totalSeason":"7",
+            "score":"9.2/10"
+        }, 
+
+               {
+            "tvShowId":"agentcarter",
+            "title":"Agent Carter",
+            "image":"https://i.ibb.co/GThzRrj/agentcarter.jpg",
+            "synopsis":"Peggy Carter menjadi seorang agen rahasia S.H.I.E.L.D. selama perang dunia kedua setelah kekasihnya, Steve Rogers, diyakini telah tewas dalam sebuah ledakan yang mematikan.",
+            "firstEpisode":"6 Januari 2015",
+            "lastEpisode":"1 Maret 2016",
+            "totalEpisode":"18",
+            "totalSeason":"2",
+            "score":"8.2/10"
+        },
+
+               {
+            "tvShowId":"24",
+            "title":"24",
+            "image":"https://i.ibb.co/p67qfqN/24.jpg",
+            "synopsis":"Serial televisi Amerika Serikat yang masih diputar saat ini. Serial ini diproduksi oleh Fox Network dan disindikasikan di seluruh dunia. Dinamai 24 karena ceritanya berlangsung selama 24 jam dan dibagi ke dalam 24 episode, masing-masing episode berdurasi satu jam dan mengikuti perkembangan kejadian secara real time dalam kehidupan seorang agen rahasia bernama Jack Bauer (Kiefer Sutherland). Selain itu juga diceritakan mengenai berbagai tokoh teroris, rekan-rekan Jack Bauer di Unit Anti-teroris (Counter Terrorist Unit) dan di Gedung Putih.",
+            "firstEpisode":"6 November 2001",
+            "lastEpisode":"24 May 2010",
+            "totalEpisode":"228",
+            "totalSeason":"9",
+            "score":"8.0/10"
+        },
+
+               {
+            "tvShowId":"glee",
+            "title":"Glee",
+            "image":"https://i.ibb.co/NKvdZYw/glee.jpg",
+            "synopsis":"Serial drama komedi musikal yang ditayangkan di channel Fox di Amerika Serikat. Serial ini menceritakan tentang klub paduan suara New Directions bersaing di lomba paduan suara sementara anggotanya menghadapi hubungan, seksualitas, dan isu sosial. Para pelaku utama awalnya adalah direktur klub dan guru bahasa Spanyol, Will Schuester (Matthew Morrison), pelatih pemandu sorak Sue Sylvester (Jane Lynch), guru bimbingan konselor Emma Pillsbury-Howell (Jayma Mays) dan 8 anggota yang diperankan oleh Dianna Agron, Chris Colfer, Kevin McHale, Lea Michele, Cory Monteith, Amber Riley, Jenna Ushkowitz dan Mark Salling. Pada musim kedua, Mike O'Malley, Heather Morris dan Naya Rivera dipromosikan ke aktor utama. Serial ini dibuat oleh Ryan Murphy, Brad Falchuk dan Ian Brennan yang pertama-tama membuat Glee sebagai sebuah film. Episode pertamanya ditayangkan setelah acara American Idol pada tanggal 19 Mei 2009 dan musim pertamanya berlangsung dari 9 September 2009 sampai 8 Juni 2010. Musim keduanya mulai ditayangkan pada 21 September 2010. Glee yang kental dengan unsur musik ini juga merilis lagu-lagu yang terdapat disetiap tayangannya. Dimulai dari Glee: The Music, Volume 1, yang dirilis pada tanggal 2 November 2009. Yang pada akhirnya meraih kesuksesan dengan penjualan mencapai tujuh juta keping.",
+            "firstEpisode":"19 Mei 2009",
+            "lastEpisode":"20 Maret 2015",
+            "totalEpisode":"121",
+            "totalSeason":"6",
+            "score":"8.9/10"
+        },
+
+               {
+            "tvShowId":"supernatural",
+            "title":"Supernatural",
+            "image":"https://i.ibb.co/F08vgkt/supernatural.jpg",
+            "synopsis":"Serial televisi bergenre horor. Serial ini muncul pertama kali pada tanggal 13 September 2005 di The WB, dan kini merupakan bagian dari The CW. Serial TV ini dibuat oleh Eric Kripke yang juga menjadi showrunner untuk serial ini sampai musim ke-5. Supernatural mengisahkan dua bersaudara bernama Dean dan Sam Winchester yang mengelilingi Amerika Serikat menjadi penyelidik peristiwa paranormal. Sepanjang perjalanan, mereka bertemu dengan makhluk-makhluk gaib seperti hantu, setan, malaikat, dan yang lainnya.",
+            "firstEpisode":"13 September 2005",
+            "lastEpisode":"19 November 2020",
+            "totalEpisode":"327",
+            "totalSeason":"15",
+            "score":"9.4/10"
+        },
+
+               {
+            "tvShowId":"houseofcards",
+            "title":"House of Cards",
+            "image":"https://i.ibb.co/Rzmv5Ws/houseofcards.jpg",
+            "synopsis":"House of Cards adalah serial televisi web drama politik Amerika Serikat yang dibuat Beau Willimon. Serial ini merupakan adaptasi miniseri berjudul sama yang pernah tayang di BBC pada tahun 1990 dan didasarkan pada novel karya Michael Dobbs. Musim perdananya tayang perdana pada tanggal 1 Februari 2013 di Netflix, kemudian diikuti musim-musim berikutnya pada tanggal 14 Februari 2014, 27 Februari 2015, 4 Maret 2016, dan 30 Mei 2017, masing-masing terdiri atas 13 episode. Menurut Willimon, masa depan serial ini diputuskan setelah tiap musim berakhir.",
+            "firstEpisode":"1 Februari 2013",
+            "lastEpisode":"2 November 2018",
+            "totalEpisode":"73",
+            "totalSeason":"6",
+            "score":"9.0/10"
+        }, 
+                      {
+            "tvShowId":"americanhorrorstory",
+            "title":"American Horror Story",
+            "image":"https://i.ibb.co/y005Kf0/americanhorror.jpg",
+            "synopsis":"American Horror Story adalah serial televisi Amerika Serikat bertema horor yang dibuat dan diproduseri oleh Ryan Murphy dan Brad Falchuk. Serial ini berformat antologi serta memiliki cerita dan watak peran  berbeda setiap musim penayangannya. [2] Saat ini, American Horror Story sudah berjalan selama empat musim. Musim pertama berjudul Murder House, yang menceritakan tentang kisah seram di rumah berhantu. Musim kedua berjudul Asylum, yang menceritakan tentang rumah sakit jiwa dalam naungan gereja Katolik. Musim ketiga berjudul Coven, yang menceritakan tentang perkumpulan penyihir Amerika. Musim keempat berjudul Freak Show, yang menceritakan tentang lika-liku bisnis sirkus. Musim kelima berjudul Hotel yang tayang perdana pada tanggal 7 Oktober 2015. Musim keenam yang ditayangkan tanggal 14 September 2016 dengan berjudul Roanoke menceritakan tentang salah satu koloni Amerika yang misterius menghilang pada abad ke 16.[3]",
+            "firstEpisode":"5 Oktober 2011",
+            "lastEpisode":"18 September 2019",
+            "totalEpisode":"66",
+            "totalSeason":"6",
+            "score":"8.6/10"
+        },
+
+           {
+            "tvShowId":"americancrimestory",
+            "title":"American Crime Story",
+            "image":"https://i.ibb.co/yFCQ9YV/americancrime.jpg",
+            "synopsis":"American Crime Story adalah serial televisi kriminal sejati antologi Amerika yang dikembangkan oleh Scott Alexander dan Larry Karaszewski, yang merupakan produser eksekutif bersama Brad Falchuk, Nina Jacobson, Ryan Murphy, dan Brad Simpson. Mirip dengan serial antologi horor fiksi American Horror Story, [3] juga dari Murphy dan Falchuk, setiap musim disajikan sebagai miniseri mandiri, mengikuti peristiwa nyata yang tidak terkait. Alexander dan Karaszewski tidak kembali setelah musim pertama, tetapi mereka mempertahankan kredit produser eksekutif. [4] Serial ini disiarkan di saluran televisi kabel FX di Amerika Serikat.",
+            "firstEpisode":"2 Februari 2016",
+            "lastEpisode":"17 January 2018",
+            "totalEpisode":"19",
+            "totalSeason":"2",
+            "score":"8.6/10"
+        },
+
+        {
+            "tvShowId":"dexter",
+            "title":"Dexter",
+            "image":"https://i.ibb.co/zP244vS/dexter.jpg",
+            "synopsis":"Serial televisi misteri drama kriminal Amerika yang ditayangkan di Showtime dari 1 Oktober 2006 hingga 22 September 2013. [1] Berlatar di Miami, serial ini berpusat pada Dexter Morgan (Michael C. Hall), seorang teknisi forensik yang berspesialisasi dalam analisis pola noda darah untuk Departemen Kepolisian Metro Miami fiksi, yang menjalani kehidupan paralel rahasia sebagai pembunuh berantai main hakim sendiri, memburu pembunuh yang telah menyelinap melalui celah-celah sistem peradilan. Musim pertama acara itu berasal dari novel Darkly Dreaming Dexter (2004), yang pertama dalam serangkaian novel karya Jeff Lindsay. Itu diadaptasi untuk televisi oleh James Manos Jr., yang menulis episode pertama. Musim berikutnya berevolusi secara independen dari karya Lindsay.",
+            "firstEpisode":"1 Oktober 2006",
+            "lastEpisode":"22 September 2013",
+            "totalEpisode":"96",
+            "totalSeason":"8",
+            "score":"8.9/10"
+        }
+        
+    ]
+}

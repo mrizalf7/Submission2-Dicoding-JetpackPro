@@ -5,8 +5,7 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.bumptech.glide.Glide
-import com.bumptech.glide.request.RequestOptions
-import com.example.sixthproject.data.MoviesEntity
+import com.example.sixthproject.data.source.local.entity.MoviesEntity
 import com.example.sixthproject.databinding.ItemsMovieBinding
 import com.example.sixthproject.ui.moviedetail.MovieDetailActivity
 

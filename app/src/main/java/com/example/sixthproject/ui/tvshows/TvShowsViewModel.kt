@@ -1,11 +1,12 @@
 package com.example.sixthproject.ui.tvshows
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.example.sixthproject.data.TvShowsEntity
-import com.example.sixthproject.utils.NotDataDummy
+import com.example.sixthproject.data.source.local.entity.TvShowsEntity
+import com.example.sixthproject.data.MovieRepository
 
-class TvShowsViewModel: ViewModel() {
+class TvShowsViewModel(private val tvShowRepository: MovieRepository): ViewModel() {
 
-    fun getTvShows():ArrayList<TvShowsEntity> = NotDataDummy.generateTvShows()
+    fun getTvShows(): LiveData<List<TvShowsEntity>> = tvShowRepository.getAllTvShows()
 
 }

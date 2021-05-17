@@ -1,10 +1,11 @@
 package com.example.sixthproject.ui.tvshowdetail
 
+import androidx.lifecycle.LiveData
 import androidx.lifecycle.ViewModel
-import com.example.sixthproject.data.TvShowsEntity
-import com.example.sixthproject.utils.NotDataDummy
+import com.example.sixthproject.data.source.local.entity.TvShowsEntity
+import com.example.sixthproject.data.MovieRepository
 
-class TvShowsDetailViewModel: ViewModel() {
+class TvShowsDetailViewModel(private val tvShowDetail: MovieRepository): ViewModel() {
 
     private lateinit var tvShowId: String
 
@@ -12,15 +13,7 @@ class TvShowsDetailViewModel: ViewModel() {
         this.tvShowId = tvShowId
     }
 
-    fun getTvShow(): TvShowsEntity {
-        lateinit var tvShow: TvShowsEntity
-        val tvShowsEntities = NotDataDummy.generateTvShows()
-        for (tvShowsEntity in tvShowsEntities) {
-            if (tvShowsEntity.tvShowId == tvShowId) {
-                tvShow = tvShowsEntity
-            }
-        }
-        return tvShow
-    }
+
+    fun getTvShow(): LiveData<TvShowsEntity> = tvShowDetail.getTvShowById(tvShowId)
 
 }

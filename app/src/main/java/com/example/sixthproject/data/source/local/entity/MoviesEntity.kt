@@ -1,5 +1,9 @@
-package com.example.sixthproject.data
+package com.example.sixthproject.data.source.local.entity
 
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
 data class MoviesEntity(
     var movieId: String,
     var title: String,
@@ -7,4 +11,4 @@ data class MoviesEntity(
     var synopsis:String,
     var releaseDate:String,
     var score : String
-)
+): Parcelable
