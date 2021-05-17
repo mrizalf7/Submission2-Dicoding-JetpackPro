@@ -4,6 +4,7 @@ import android.os.Handler
 import android.os.Looper
 import com.example.sixthproject.data.source.remote.response.MoviesResponse
 import com.example.sixthproject.data.source.remote.response.TvShowsResponse
+import com.example.sixthproject.utils.EspressoIdlingResource
 import com.example.sixthproject.utils.JsonHelper
 
 class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
@@ -25,10 +26,15 @@ class RemoteDataSource private constructor(private val jsonHelper: JsonHelper) {
     }
 
     fun getAllMovies(callback: LoadMoviesCallback) {
-        handler.postDelayed({ callback.onAllMoviesReceived(jsonHelper.loadMovies()) }, SERVICE_LATENCY_IN_MILLIS)
+        EspressoIdlingResource.increment()
+        handler.postDelayed({ callback.onAllMoviesReceived(jsonHelper.loadMovies())
+            EspressoIdlingResource.decrement()
+                            }, SERVICE_LATENCY_IN_MILLIS)
     }
     fun getAllTvShows(callback: LoadTvShowsCallback) {
-        handler.postDelayed({ callback.onAllTvShowsReceived(jsonHelper.loadTvShows()) }, SERVICE_LATENCY_IN_MILLIS)
+        EspressoIdlingResource.increment()
+        handler.postDelayed({ callback.onAllTvShowsReceived(jsonHelper.loadTvShows())
+            EspressoIdlingResource.decrement()}, SERVICE_LATENCY_IN_MILLIS)
     }
     
 
